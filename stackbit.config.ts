@@ -1,5 +1,6 @@
 import { defineStackbitConfig, DocumentStringLikeFieldNonLocalized, SiteMapEntry } from '@stackbit/types';
 import { GitContentSource } from '@stackbit/cms-git';
+import { Actions } from '@stackbit/utils';
 import { allModels } from 'sources/local/models';
 
 const gitContentSource = new GitContentSource({
@@ -19,6 +20,11 @@ export const config = defineStackbitConfig({
     ssgName: 'nextjs',
     nodeVersion: '18',
     styleObjectModelName: 'ThemeStyle',
+    actions: [
+        Actions.GenerateContentFromPreset({
+          
+        }),
+      ],
     contentSources: [gitContentSource],
     presetSource: {
         type: 'files',
