@@ -752,6 +752,10 @@ sections:
       vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     colors: bg-light-fg-dark
     type: GenericSection
+    badge:
+      type: Badge
+      label: Test
+      color: text-primary
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
