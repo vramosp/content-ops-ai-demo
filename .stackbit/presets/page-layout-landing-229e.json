@@ -1,0 +1,378 @@
+{
+    "model": "PageLayout",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "Landing",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Tests"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "test",
+                "sections": [
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "$$type": "TitleBlock",
+                            "text": "A team that works closely together",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            }
+                        },
+                        "subtitle": "Section subtitle",
+                        "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.\n",
+                        "actions": [
+                            {
+                                "$$type": "Button",
+                                "label": "See open positions",
+                                "altText": null,
+                                "url": "/",
+                                "showIcon": null,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": null
+                            }
+                        ],
+                        "media": null,
+                        "badge": null,
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "backgroundImage": {
+                            "$$type": "BackgroundImage",
+                            "url": {
+                                "$$ref": "stackbit_asset_id:static:public/images/abstract-background.svg",
+                                "$$type": "__asset_model"
+                            },
+                            "altText": "Placeholder image",
+                            "backgroundSize": "cover",
+                            "backgroundPosition": "center",
+                            "backgroundRepeat": "no-repeat",
+                            "opacity": 100
+                        },
+                        "styles": {
+                            "self": {
+                                "padding": [
+                                    "pt-40",
+                                    "pl-4",
+                                    "pb-40",
+                                    "pr-4"
+                                ],
+                                "alignItems": "center",
+                                "flexDirection": "row-reverse",
+                                "justifyContent": "center"
+                            },
+                            "text": {
+                                "textAlign": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "FeaturedItemsSection",
+                        "title": {
+                            "$$type": "TitleBlock",
+                            "text": "Open positions",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            }
+                        },
+                        "subtitle": "Subtitle goes here",
+                        "items": [
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "Account Executive",
+                                "tagline": null,
+                                "subtitle": "Sales",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "textAlign": "left",
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "justifyContent": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "Open Source Engineer",
+                                "tagline": null,
+                                "subtitle": "Marketing",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "textAlign": "left",
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "justifyContent": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "Senior Software Engineer",
+                                "tagline": null,
+                                "subtitle": "Engineering",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row"
+                                    }
+                                }
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "$$type": "Button",
+                                "label": "Apply now",
+                                "altText": null,
+                                "url": "/",
+                                "showIcon": null,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": null
+                            }
+                        ],
+                        "badge": null,
+                        "elementId": null,
+                        "variant": "toggle-list",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": [
+                                    "pb-40",
+                                    "pt-16",
+                                    "pl-3",
+                                    "pr-3"
+                                ],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "FeaturedItemsSection",
+                        "title": {
+                            "$$type": "TitleBlock",
+                            "text": "Key Benefits",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            }
+                        },
+                        "subtitle": "Subtitle goes here",
+                        "items": [
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "500k",
+                                "tagline": null,
+                                "subtitle": "Numbers Done",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "$$type": "ImageBlock",
+                                    "url": {
+                                        "$$ref": "stackbit_asset_id:static:public/images/icon1.svg",
+                                        "$$type": "__asset_model"
+                                    },
+                                    "altText": "Lightning bolt symbol on red background",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "x-large"
+                                        }
+                                    }
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "justifyContent": "center",
+                                        "textAlign": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "20x",
+                                "tagline": null,
+                                "subtitle": "The Job Stuff",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "$$type": "ImageBlock",
+                                    "url": {
+                                        "$$ref": "stackbit_asset_id:static:public/images/icon2.svg",
+                                        "$$type": "__asset_model"
+                                    },
+                                    "altText": "Featured icon two",
+                                    "elementId": "",
+                                    "styles": null
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "textAlign": "left",
+                                        "justifyContent": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "$$type": "FeaturedItem",
+                                "title": "200%",
+                                "tagline": null,
+                                "subtitle": "Faster",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "$$type": "ImageBlock",
+                                    "url": {
+                                        "$$ref": "stackbit_asset_id:static:public/images/icon3.svg",
+                                        "$$type": "__asset_model"
+                                    },
+                                    "altText": "Featured icon three",
+                                    "elementId": "",
+                                    "styles": null
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": [
+                                            "pt-8",
+                                            "pl-8",
+                                            "pb-8",
+                                            "pr-8"
+                                        ],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row"
+                                    }
+                                }
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "$$type": "Button",
+                                "label": "Get started",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": ""
+                            }
+                        ],
+                        "badge": {
+                            "$$type": "Badge",
+                            "label": "This is a badge",
+                            "color": "text-primary",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            }
+                        },
+                        "elementId": "",
+                        "variant": "three-col-grid",
+                        "colors": "bg-neutral-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": [
+                                    "pb-16",
+                                    "pt-16",
+                                    "pl-16",
+                                    "pr-16"
+                                ],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ],
+                "slug": "testing",
+                "isDraft": null,
+                "seo": {
+                    "$$type": "Seo",
+                    "metaTitle": "Careers - Demo site",
+                    "metaDescription": "This is the careers page built with Netlify.",
+                    "addTitleSuffix": null,
+                    "socialImage": null,
+                    "metaTags": []
+                }
+            },
+            "thumbnail": "images/page-layout-landing-229e.png"
+        }
+    ]
+}
