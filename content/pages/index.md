@@ -214,6 +214,15 @@ sections:
         style: primary
         elementId: ''
         type: Button
+      - type: Button
+        label: Get started
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     badge:
       label: This is a badge
       color: text-primary
