@@ -25,6 +25,94 @@ styles:
     flexDirection: col
 isFeatured: false
 author: content/data/test.json
+bottomSections:
+  - type: FeaturedItemsSection
+    title:
+      type: TitleBlock
+      text: Open positions
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: Subtitle goes here
+    items:
+      - type: FeaturedItem
+        title: Account Executive
+        subtitle: Sales
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Open Source Engineer
+        subtitle: Marketing
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Senior Software Engineer
+        subtitle: Engineering
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+    actions:
+      - type: Button
+        label: Apply now
+        url: /
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+    variant: toggle-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-40
+          - pt-16
+          - pl-3
+          - pr-3
+        justifyContent: center
+      subtitle:
+        textAlign: center
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet sit amet cursus sit amet dictum sit. Duis ut diam quam nulla porttitor massa id neque. Ut tortor pretium viverra suspendisse potenti nullam. Auctor elit sed vulputate mi sit amet mauris commodo. Dui ut ornare lectus sit amet est placerat. Et malesuada fames ac turpis. Nunc vel risus commodo viverra maecenas accumsan lacus vel. Varius morbi enim nunc faucibus a pellentesque. Erat imperdiet sed euismod nisi porta. Viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas. Dui ut ornare lectus sit amet est placerat in. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Nullam vehicula ipsum a arcu cursus vitae congue mauris.
