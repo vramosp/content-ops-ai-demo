@@ -285,16 +285,7 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
-    actions:
-      - type: Button
-        label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
   - type: GenericSection
     title:
       text: Generic section with a video
