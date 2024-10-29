@@ -22,12 +22,7 @@ export const config = defineStackbitConfig({
     styleObjectModelName: 'ThemeStyle',
     actions: [
         Actions.GenerateContentFromPreset({
-          label: 'Generate content with AI',
-          modelsConfig: [
-            {
-              name: 'post','page',
-            },
-          ],
+          
         }),
       ],
     contentSources: [gitContentSource],
