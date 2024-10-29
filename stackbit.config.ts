@@ -25,7 +25,7 @@ export const config = defineStackbitConfig({
           label: 'Generate content with AI',
           modelsConfig: [
             {
-              name: 'post','page'
+              name: 'post','page',
             },
           ],
         }),
